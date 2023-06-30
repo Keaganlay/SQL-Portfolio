@@ -1,0 +1,27 @@
+CREATE TABLE MB_Outlet (id INTEGER PRIMARY KEY, Item TEXT, price TEXT, InStock INTEGER, Type TEXT);
+
+INSERT INTO MB_Outlet VALUES (1, "White Bitch", "$100", 200, "Bitches");
+INSERT INTO MB_Outlet VALUES (2, "Black Bitch", "$60", 30, "Bitches");
+INSERT INTO MB_Outlet VALUES (3, "Mexican Bitch", "$50", 500, "Bitches");
+INSERT INTO MB_Outlet VALUES (4, "Asian Bitch", "$110", 25, "Bitches");
+INSERT INTO MB_Outlet VALUES (5, "Alien Bitch", "$300", 10, "Bitches");
+
+INSERT INTO MB_Outlet VALUES (6, "Iced Chain", "$1000", 5, "Drip");
+INSERT INTO MB_Outlet VALUES (7, "Iced Watch", "$2000", 7, "Drip");
+INSERT INTO MB_Outlet VALUES (8, "Iced Grill", "$5000", 2, "Drip");
+
+INSERT INTO MB_Outlet VALUES (9, "Gold Blicky", "$7500", 3, "Heat");
+
+INSERT INTO MB_Outlet VALUES (10, "Gucci Flip Flops", "$800", 8, "Drip");
+
+INSERT INTO MB_Outlet VALUES (11, "Golden AK", "$1700", 12, "Heat");
+
+INSERT INTO MB_Outlet VALUES (12, "Gucci Bucket Hat", "$600", 15, "Drip");
+
+INSERT INTO MB_Outlet VALUES (13, "Choppa", "$25000", 3, "Heat");
+
+INSERT INTO MB_Outlet VALUES (14, "Opps", "$10000", 9999, "Heat");
+
+INSERT INTO MB_Outlet VALUES (15, "Mystery Bitch", "$75", 30, "Bitches");
+
+SELECT MAX(InStock) FROM MB_Outlet;
